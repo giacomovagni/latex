@@ -1,0 +1,6 @@
+
+% spacing 1.5
+\linespread{1.25}
+
+% Time font
+\renewcommand{\rmdefault}{ptm}
