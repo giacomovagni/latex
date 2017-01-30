@@ -1,0 +1,39 @@
+\documentclass[12pt]{article}
+
+\linespread{1.25}
+\usepackage{float}
+\usepackage[a4paper, total={6in, 10in}]{geometry}
+\usepackage[table]{xcolor}% http://ctan.org/pkg/xcolor
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{color, colortbl}
+\usepackage{epigraph}
+\usepackage{url}
+\usepackage[autostyle]{csquotes}  
+\usepackage{lscape}
+\usepackage{apacite}
+\usepackage{amssymb}
+\usepackage[none]{hyphenat}
+\pagenumbering{gobble}
+\usepackage{parskip}
+
+%\renewcommand{\rmdefault}{ptm}
+
+\usepackage[demo]{graphicx}
+\usepackage{caption}
+
+%opening
+\title{Inequality and Family Time}
+\author{Giacomo Vagni}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Text
+\end{abstract}
+
+Text
+
+\end{document}
