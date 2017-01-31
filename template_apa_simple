@@ -1,5 +1,12 @@
 \documentclass[12pt]{article}
 
+% smaller title and italic % 
+\titleformat*{\section}{\small\bfseries}
+\titleformat*{\subsection}{\small\itshape}
+\titleformat*{\subsubsection}{\small\bfseries}
+\titleformat*{\paragraph}{\small\bfseries}
+\titleformat*{\subparagraph}{\small\bfseries}
+
 \linespread{1.25}
 \usepackage{float}
 \usepackage[a4paper, total={6in, 10in}]{geometry}
