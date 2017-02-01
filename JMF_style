@@ -1,0 +1,60 @@
+\documentclass[12pt]{article}
+
+\usepackage{titlesec}
+\usepackage{lipsum} % for generating filler text
+
+\titleformat*{\section}{\centering\normalfont\uppercase}
+\titleformat*{\subsection}{\normalfont\itshape}
+\titleformat{\subsubsection}[runin]% runin puts it in the same paragraph
+{\normalfont\itshape}% formatting commands to apply to the whole heading
+{\thesubsubsection}% the label and number
+{0.5em}% space between label/number and subsection title
+{}% formatting commands applied just to subsection title
+[.]% punctuation or other commands following subsection title
+
+\titleformat*{\paragraph}{\small\bfseries}
+\titleformat*{\subparagraph}{\small\bfseries}
+
+\usepackage{float}
+\usepackage[a4paper, total={6.5in, 10in}]{geometry}
+\usepackage[table]{xcolor}% http://ctan.org/pkg/xcolor
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{color, colortbl}
+\usepackage{epigraph}
+\usepackage{url}
+\usepackage[autostyle]{csquotes}  
+\usepackage{lscape}
+\usepackage{apacite}
+\usepackage{amssymb}
+\usepackage[none]{hyphenat}
+\pagenumbering{gobble}
+\usepackage{parskip}
+
+\renewcommand{\rmdefault}{ptm}
+
+\usepackage[demo]{graphicx}
+\usepackage{caption}
+
+\linespread{1.5}
+
+%opening
+\title{JMF Style}
+\author{Giacomo Vagni}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+	 \lipsum[2]% (filler text)
+\end{abstract}
+
+\section{Introduction} 
+         \lipsum[1]% (filler text)
+
+\subsection*{Section}
+
+\subsubsection{Encore}
+
+\end{document}
