@@ -1,5 +1,9 @@
 % spacing 1.5
-\linespread{1.25}
+\usepackage{setspace}
+\doublespacing
 
 % Time font
 \renewcommand{\rmdefault}{ptm}
+
+% new times roman
+\usepackage{mathptmx}
