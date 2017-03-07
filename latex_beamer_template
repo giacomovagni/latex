@@ -1,0 +1,74 @@
+
+\documentclass[xcolor = dvipsnames]{beamer}
+\usepackage{graphicx}
+\usepackage{color} 
+\usepackage{xcolor,colortbl}
+\usepackage{mathtools}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\usefonttheme{professionalfonts} % using non standard fonts for beamer
+\usefonttheme{serif} % default family is serif
+
+\setbeamertemplate{itemize items}[circle]
+\setbeamertemplate{itemize subitem}[triangle] 
+\setbeamercolor{itemize item}{fg=black}
+\setbeamercolor{itemize subitem}{fg=gray}
+
+\definecolor{mygray}{gray}{0.95}
+
+\setbeamercolor{frametitle}{fg=black, bg = mygray} 
+%\setbeamercolor{title}{fg=black}
+
+\useoutertheme{infolines}
+%\setbeamercolor{frametitle}{fg=Brown,bg=Brown!20}
+
+\setbeamercolor{title}{fg=RubineRed} 
+
+%Information to be included in the title page: 
+\title{Inequality and Family Time}
+\author{Giacomo Vagni}
+\institute{TUS Workshop - Tampere, Finland}
+\date{2016-11-29}
+
+\begin{document}
+	
+	\section{Introduction}
+	
+		\begin{frame}
+			\maketitle
+		\end{frame}		
+
+\section{Inequality and Family Time}
+
+	\begin{frame}\frametitle{Aim}
+		\begin{itemize}
+			\item Explore family time inequalities \emph{over time} 
+			\begin{itemize}
+				\item Estimate total family time 
+				\item Describe how family activities differ by class 
+				\item How change over time 
+			\end{itemize}
+		\end{itemize} 
+	\end{frame}
+
+	\begin{frame}\frametitle{}
+		\begin{itemize}
+			\item Family of origin $\rightarrow$ play important part in the reproduction of inequalities (Cohen, 2015; Cherlin, 2002; McLanahan, 2004; Lareau 2011; Bourdieu, 1984; \dots)
+			\item ...
+			
+		\end{itemize} 
+	\end{frame}
+
+
+\begin{frame}
+	\thispagestyle{empty}
+	\begin{figure}
+		\caption{}
+		\footnotesize
+%		\includegraphics[width=0.9\linewidth]{...}
+	\end{figure}
+		
+\end{frame}
+
+
+\end{document}
