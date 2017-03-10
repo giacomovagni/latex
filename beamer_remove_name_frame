@@ -1,0 +1,8 @@
+# if you want to remove the name, institution and title from the beamer frame, you can do this
+
+\title[]{Social Class Gradient in Early Parental Transmission of Cultural and
+Developmental Resources}
+\subtitle[]{ECSR Spring Shool Turin 2017}
+\author[]{Giacomo Vagni}
+\institute[]{University of Oxford}
+\date{2017-03-13}
